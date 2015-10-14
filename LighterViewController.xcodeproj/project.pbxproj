@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66AD9F11BCDF08400E5C275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F66AD9F01BCDF08400E5C275 /* main.m */; };
+		F66AD9F41BCDF08400E5C275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66AD9F31BCDF08400E5C275 /* AppDelegate.m */; };
+		F66AD9F71BCDF08400E5C275 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66AD9F61BCDF08400E5C275 /* ViewController.m */; };
+		F66AD9FA1BCDF08400E5C275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66AD9F81BCDF08400E5C275 /* Main.storyboard */; };
+		F66AD9FC1BCDF08400E5C275 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66AD9FB1BCDF08400E5C275 /* Images.xcassets */; };
+		F66AD9FF1BCDF08400E5C275 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66AD9FD1BCDF08400E5C275 /* LaunchScreen.xib */; };
+		F66ADA0B1BCDF08400E5C275 /* LighterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F66ADA0A1BCDF08400E5C275 /* LighterViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F66ADA051BCDF08400E5C275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66AD9E31BCDF08400E5C275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66AD9EA1BCDF08400E5C275;
+			remoteInfo = LighterViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F66AD9EB1BCDF08400E5C275 /* LighterViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighterViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66AD9EF1BCDF08400E5C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66AD9F01BCDF08400E5C275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F66AD9F21BCDF08400E5C275 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F66AD9F31BCDF08400E5C275 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F66AD9F51BCDF08400E5C275 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F66AD9F61BCDF08400E5C275 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F66AD9F91BCDF08400E5C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F66AD9FB1BCDF08400E5C275 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66AD9FE1BCDF08400E5C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F66ADA041BCDF08400E5C275 /* LighterViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighterViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66ADA091BCDF08400E5C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66ADA0A1BCDF08400E5C275 /* LighterViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighterViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66AD9E81BCDF08400E5C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66ADA011BCDF08400E5C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F66AD9E21BCDF08400E5C275 = {
+			isa = PBXGroup;
+			children = (
+				F66AD9ED1BCDF08400E5C275 /* LighterViewController */,
+				F66ADA071BCDF08400E5C275 /* LighterViewControllerTests */,
+				F66AD9EC1BCDF08400E5C275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66AD9EC1BCDF08400E5C275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66AD9EB1BCDF08400E5C275 /* LighterViewController.app */,
+				F66ADA041BCDF08400E5C275 /* LighterViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66AD9ED1BCDF08400E5C275 /* LighterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F66AD9F21BCDF08400E5C275 /* AppDelegate.h */,
+				F66AD9F31BCDF08400E5C275 /* AppDelegate.m */,
+				F66AD9F51BCDF08400E5C275 /* ViewController.h */,
+				F66AD9F61BCDF08400E5C275 /* ViewController.m */,
+				F66AD9F81BCDF08400E5C275 /* Main.storyboard */,
+				F66AD9FB1BCDF08400E5C275 /* Images.xcassets */,
+				F66AD9FD1BCDF08400E5C275 /* LaunchScreen.xib */,
+				F66AD9EE1BCDF08400E5C275 /* Supporting Files */,
+			);
+			path = LighterViewController;
+			sourceTree = "<group>";
+		};
+		F66AD9EE1BCDF08400E5C275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66AD9EF1BCDF08400E5C275 /* Info.plist */,
+				F66AD9F01BCDF08400E5C275 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66ADA071BCDF08400E5C275 /* LighterViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F66ADA0A1BCDF08400E5C275 /* LighterViewControllerTests.m */,
+				F66ADA081BCDF08400E5C275 /* Supporting Files */,
+			);
+			path = LighterViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F66ADA081BCDF08400E5C275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66ADA091BCDF08400E5C275 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66AD9EA1BCDF08400E5C275 /* LighterViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66ADA0E1BCDF08400E5C275 /* Build configuration list for PBXNativeTarget "LighterViewController" */;
+			buildPhases = (
+				F66AD9E71BCDF08400E5C275 /* Sources */,
+				F66AD9E81BCDF08400E5C275 /* Frameworks */,
+				F66AD9E91BCDF08400E5C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LighterViewController;
+			productName = LighterViewController;
+			productReference = F66AD9EB1BCDF08400E5C275 /* LighterViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F66ADA031BCDF08400E5C275 /* LighterViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66ADA111BCDF08400E5C275 /* Build configuration list for PBXNativeTarget "LighterViewControllerTests" */;
+			buildPhases = (
+				F66ADA001BCDF08400E5C275 /* Sources */,
+				F66ADA011BCDF08400E5C275 /* Frameworks */,
+				F66ADA021BCDF08400E5C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66ADA061BCDF08400E5C275 /* PBXTargetDependency */,
+			);
+			name = LighterViewControllerTests;
+			productName = LighterViewControllerTests;
+			productReference = F66ADA041BCDF08400E5C275 /* LighterViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66AD9E31BCDF08400E5C275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = SWCM;
+				TargetAttributes = {
+					F66AD9EA1BCDF08400E5C275 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F66ADA031BCDF08400E5C275 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F66AD9EA1BCDF08400E5C275;
+					};
+				};
+			};
+			buildConfigurationList = F66AD9E61BCDF08400E5C275 /* Build configuration list for PBXProject "LighterViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F66AD9E21BCDF08400E5C275;
+			productRefGroup = F66AD9EC1BCDF08400E5C275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66AD9EA1BCDF08400E5C275 /* LighterViewController */,
+				F66ADA031BCDF08400E5C275 /* LighterViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66AD9E91BCDF08400E5C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66AD9FA1BCDF08400E5C275 /* Main.storyboard in Resources */,
+				F66AD9FF1BCDF08400E5C275 /* LaunchScreen.xib in Resources */,
+				F66AD9FC1BCDF08400E5C275 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66ADA021BCDF08400E5C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66AD9E71BCDF08400E5C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66AD9F71BCDF08400E5C275 /* ViewController.m in Sources */,
+				F66AD9F41BCDF08400E5C275 /* AppDelegate.m in Sources */,
+				F66AD9F11BCDF08400E5C275 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66ADA001BCDF08400E5C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66ADA0B1BCDF08400E5C275 /* LighterViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F66ADA061BCDF08400E5C275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66AD9EA1BCDF08400E5C275 /* LighterViewController */;
+			targetProxy = F66ADA051BCDF08400E5C275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F66AD9F81BCDF08400E5C275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66AD9F91BCDF08400E5C275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F66AD9FD1BCDF08400E5C275 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66AD9FE1BCDF08400E5C275 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66ADA0C1BCDF08400E5C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F66ADA0D1BCDF08400E5C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66ADA0F1BCDF08400E5C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LighterViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F66ADA101BCDF08400E5C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LighterViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F66ADA121BCDF08400E5C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LighterViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighterViewController.app/LighterViewController";
+			};
+			name = Debug;
+		};
+		F66ADA131BCDF08400E5C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LighterViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighterViewController.app/LighterViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66AD9E61BCDF08400E5C275 /* Build configuration list for PBXProject "LighterViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66ADA0C1BCDF08400E5C275 /* Debug */,
+				F66ADA0D1BCDF08400E5C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66ADA0E1BCDF08400E5C275 /* Build configuration list for PBXNativeTarget "LighterViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66ADA0F1BCDF08400E5C275 /* Debug */,
+				F66ADA101BCDF08400E5C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F66ADA111BCDF08400E5C275 /* Build configuration list for PBXNativeTarget "LighterViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66ADA121BCDF08400E5C275 /* Debug */,
+				F66ADA131BCDF08400E5C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66AD9E31BCDF08400E5C275 /* Project object */;
+}
