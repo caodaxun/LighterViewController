@@ -1,6 +1,8 @@
 # LighterViewController
 slim down your view controller
 
+Clean Table View Code <https://www.objc.io/issues/1-view-controllers/table-views/>
+
 <https://www.objc.io/issues/1-view-controllers/lighter-view-controllers/>
 
 ![alt text](http://cl.ly/dWWG/IMG_1224.PNG)
@@ -65,6 +67,35 @@ slim down your view controller
     	_photoTitleLabel.text = photo.name;
     	_photoDateLabel.text = [self.dateFormatter stringFromDate:photo.creationDate];
 	}
+	
+##### Handling Multiple Cell Types
+	- (UITableViewCell *)tableView:(UITableView *)tableView  
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+	{
+    	NSString *key = self.keys[(NSUInteger) indexPath.row];
+    	id value = [self.photo valueForKey:key];
+    	UITableViewCell *cell;
+    	if ([key isEqual:PhotoRatingKey]) {
+        	cell = [self cellForRating:value indexPath:indexPath];
+    	} else {
+        	cell = [self detailCellForKey:key value:value];
+    	}
+    	return cell;
+	}
+
+	- (RatingCell *)cellForRating:(NSNumber *)rating
+                    	 indexPath:(NSIndexPath *)indexPath
+	{
+  	  // ...
+	}
+
+	- (UITableViewCell *)detailCellForKey:(NSString *)key
+                                value:(id)value
+	{
+    	// ...
+	}
+	
+	
 	
 	
 	
