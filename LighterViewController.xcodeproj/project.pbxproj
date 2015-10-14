@@ -18,6 +18,9 @@
 		F68CA7D91BCDF3DF00F964A3 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CA7D81BCDF3DF00F964A3 /* Photo.m */; settings = {ASSET_TAGS = (); }; };
 		F68CA7DC1BCDF3E700F964A3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CA7DB1BCDF3E700F964A3 /* User.m */; settings = {ASSET_TAGS = (); }; };
 		F68CA7DE1BCDF6A800F964A3 /* photodata.bin in Resources */ = {isa = PBXBuildFile; fileRef = F68CA7DD1BCDF6A800F964A3 /* photodata.bin */; settings = {ASSET_TAGS = (); }; };
+		F68CA7E11BCDF8CF00F964A3 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CA7E01BCDF8CF00F964A3 /* ArrayDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		F68CA7E51BCDFC7300F964A3 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CA7E31BCDFC7300F964A3 /* PhotoCell.m */; settings = {ASSET_TAGS = (); }; };
+		F68CA7E61BCDFC7300F964A3 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68CA7E41BCDFC7300F964A3 /* PhotoCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		F68CA7DA1BCDF3E700F964A3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		F68CA7DB1BCDF3E700F964A3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F68CA7DD1BCDF6A800F964A3 /* photodata.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = photodata.bin; sourceTree = "<group>"; };
+		F68CA7DF1BCDF8CF00F964A3 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		F68CA7E01BCDF8CF00F964A3 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		F68CA7E21BCDFC7300F964A3 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		F68CA7E31BCDFC7300F964A3 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		F68CA7E41BCDFC7300F964A3 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,11 @@
 				F68CA7CE1BCDF32700F964A3 /* PhotosViewController.h */,
 				F68CA7CF1BCDF32700F964A3 /* PhotosViewController.m */,
 				F68CA7D01BCDF32700F964A3 /* PhotosViewController.xib */,
+				F68CA7DF1BCDF8CF00F964A3 /* ArrayDataSource.h */,
+				F68CA7E01BCDF8CF00F964A3 /* ArrayDataSource.m */,
+				F68CA7E21BCDFC7300F964A3 /* PhotoCell.h */,
+				F68CA7E31BCDFC7300F964A3 /* PhotoCell.m */,
+				F68CA7E41BCDFC7300F964A3 /* PhotoCell.xib */,
 				F68CA7D31BCDF38300F964A3 /* Model */,
 				F66AD9FB1BCDF08400E5C275 /* Images.xcassets */,
 				F66AD9FD1BCDF08400E5C275 /* LaunchScreen.xib */,
@@ -229,6 +242,7 @@
 				F68CA7D21BCDF32700F964A3 /* PhotosViewController.xib in Resources */,
 				F66AD9FF1BCDF08400E5C275 /* LaunchScreen.xib in Resources */,
 				F66AD9FC1BCDF08400E5C275 /* Images.xcassets in Resources */,
+				F68CA7E61BCDFC7300F964A3 /* PhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68CA7E51BCDFC7300F964A3 /* PhotoCell.m in Sources */,
 				F66AD9F41BCDF08400E5C275 /* AppDelegate.m in Sources */,
 				F68CA7D11BCDF32700F964A3 /* PhotosViewController.m in Sources */,
+				F68CA7E11BCDF8CF00F964A3 /* ArrayDataSource.m in Sources */,
 				F68CA7DC1BCDF3E700F964A3 /* User.m in Sources */,
 				F66AD9F11BCDF08400E5C275 /* main.m in Sources */,
 				F68CA7D91BCDF3DF00F964A3 /* Photo.m in Sources */,
