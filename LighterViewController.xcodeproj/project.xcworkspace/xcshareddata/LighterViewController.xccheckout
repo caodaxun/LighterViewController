@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1B06112D-E0B6-43BC-94EE-B1ABA37AC58A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>LighterViewController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AB82BF7ACE66BEEA51E8E449C682E86D74BFCAE5</key>
 		<string>github.com:caodaxun/LighterViewController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LighterViewController/LighterViewController.xcodeproj/project.xcworkspace</string>
+	<string>LighterViewController.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AB82BF7ACE66BEEA51E8E449C682E86D74BFCAE5</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:caodaxun/LighterViewController.git</string>

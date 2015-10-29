@@ -5,6 +5,8 @@ Clean Table View Code <https://www.objc.io/issues/1-view-controllers/table-views
 
 <https://www.objc.io/issues/1-view-controllers/lighter-view-controllers/>
 
+更轻量的 view Controller <http://objccn.io/issue-1-1/>
+
 ![alt text](http://cl.ly/dWWG/IMG_1224.PNG)
 
 ##### PhotosViewController
