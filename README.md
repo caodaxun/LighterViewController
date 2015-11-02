@@ -99,7 +99,8 @@ Clean Table View Code <https://www.objc.io/issues/1-view-controllers/table-views
     	// ...
 	}
 	
-	
+#####把网络请求逻辑移到 Model 层
+	不要在 view controller 中做网络请求的逻辑。取而代之，你应该将它们封装到另一个类中。这样，你的 view controller 就可以在之后通过使用带有回调（比如一个 completion 的 block）来请求网络了。这样的好处是，缓存和错误控制也可以在这个类里面完成。
 	
 	
 	
