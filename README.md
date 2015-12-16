@@ -9,6 +9,8 @@ Clean Table View Code <https://www.objc.io/issues/1-view-controllers/table-views
 
 更整洁的 tableView代码 <http://objccn.io/issue-1-2/>
 
+Controller不是tableview的垃圾桶 <http://www.cocoachina.com/ios/20151215/14697.html>
+
 ![alt text](http://cl.ly/dWWG/IMG_1224.PNG)
 
 ##### PhotosViewController
@@ -99,9 +101,39 @@ Clean Table View Code <https://www.objc.io/issues/1-view-controllers/table-views
     	// ...
 	}
 	
-#####把网络请求逻辑移到 Model 层
+##### 把网络请求逻辑移到 Model 层
 	不要在 view controller 中做网络请求的逻辑。取而代之，你应该将它们封装到另一个类中。这样，你的 view controller 就可以在之后通过使用带有回调（比如一个 completion 的 block）来请求网络了。这样的好处是，缓存和错误控制也可以在这个类里面完成。
-	
-	
-	
+
+###### 使用Child View Controller
+	- (void)addPhotoDetailsTableView
+	{
+   		DetailsViewController *details = [[DetailsViewController alloc] init];
+    	details.photo = self.photo;
+    	details.delegate = self;
+    	[self addChildViewController:details];
+    	CGRect frame = self.view.bounds;
+    	frame.origin.y = 110;
+    	details.view.frame = frame;
+    	[self.view addSubview:details.view];
+    	[details didMoveToParentViewController:self];
+	}
+
+如果你使用这个解决方案，你就必须在 child view controller 和 parent view controller 之间建立消息传递的渠道
+
+	@protocol DetailsViewControllerDelegate
+	- (void)didSelectPhotoAttributeWithKey:(NSString *)key;
+	@end
+
+	@interface PhotoViewController () 
+	@end
+
+	@implementation PhotoViewController
+	// ...
+	- (void)didSelectPhotoAttributeWithKey:(NSString *)key
+	{
+    	DetailViewController *controller = [[DetailViewController alloc] init];
+    	controller.key = key;
+    	[self.navigationController pushViewController:controller animated:YES];
+	}
+	@end
 
